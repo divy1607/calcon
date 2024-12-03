@@ -1,0 +1,50 @@
+/* src/components/styles/UnitConverter.css */
+.unit-converter {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .unit-converter select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .converter-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .converter-inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .converter-inputs span {
+    text-align: center;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .result {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .result p {
+    margin: 0;
+    color: #333;
+  }

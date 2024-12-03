@@ -1,0 +1,70 @@
+/* src/components/styles/Calculator.css */
+.calculator {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .display {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  
+  .equation {
+    font-size: 14px;
+    color: #666;
+    min-height: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .current {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .keypad button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .keypad button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .keypad button.operator {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .keypad button.operator:hover {
+    background-color: #0056b3;
+  }
+  
+  .keypad button.special {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .keypad button.special:hover {
+    background-color: #c82333;
+  }
+  
+  .keypad button.equals {
+    grid-row: span 3;
+  }

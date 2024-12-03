@@ -1,0 +1,79 @@
+/* src/components/styles/CurrencyConverter.css */
+.currency-converter {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .currency-converter h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .converter-inputs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .amount-input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .currency-select {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .swap-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .swap-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    background-color: #f8f9fa;
+  }
+  
+  .exchange-rate {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .loading {
+    text-align: center;
+    color: #666;
+    margin: 10px 0;
+  }
